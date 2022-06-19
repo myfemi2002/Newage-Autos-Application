@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7D1424A-7970-4C87-89E0-CAE837CA32FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>NewageAuto</RootNamespace>
+    <AssemblyName>NewageAuto</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Expenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Expenses.Designer.cs">
+      <DependentUpon>Expenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FrmMainAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FrmMainAdmin.Designer.cs">
+      <DependentUpon>FrmMainAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Summary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Summary.Designer.cs">
+      <DependentUpon>Summary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewageAutosDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewageAutosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NewageAutosExpenses.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewageAutosExpenses.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\FrmBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmBooking.Designer.cs">
+      <DependentUpon>FrmBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmBookingReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmBookingReturn.Designer.cs">
+      <DependentUpon>FrmBookingReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmUserMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmUserMain.Designer.cs">
+      <DependentUpon>FrmUserMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\FrmViewBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmViewBooking.Designer.cs">
+      <DependentUpon>FrmViewBooking.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin\Expenses.resx">
+      <DependentUpon>Expenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FrmMainAdmin.resx">
+      <DependentUpon>FrmMainAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="User\FrmBooking.resx">
+      <DependentUpon>FrmBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmBookingReturn.resx">
+      <DependentUpon>FrmBookingReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmUserMain.resx">
+      <DependentUpon>FrmUserMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmViewBooking.resx">
+      <DependentUpon>FrmViewBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="NewageAutosDataSet.xsc">
+      <DependentUpon>NewageAutosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NewageAutosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NewageAutosDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NewageAutosDataSet.xss">
+      <DependentUpon>NewageAutosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NewageAutosExpenses.xsc">
+      <DependentUpon>NewageAutosExpenses.xsd</DependentUpon>
+    </None>
+    <None Include="NewageAutosExpenses.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NewageAutosExpenses.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NewageAutosExpenses.xss">
+      <DependentUpon>NewageAutosExpenses.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\bin\Debug\NewageAuto.exe.config
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\bin\Debug\NewageAuto.exe
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\bin\Debug\NewageAuto.pdb
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAutos.csprojAssemblyReference.cache
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.FrmLogin.resources
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.Properties.Resources.resources
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAutos.csproj.GenerateResource.cache
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAutos.csproj.CoreCompileInputs.cache
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.exe
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.pdb

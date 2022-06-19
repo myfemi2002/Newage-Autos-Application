@@ -1,0 +1,15 @@
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\bin\Debug\NewageAuto.exe.config
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\bin\Debug\NewageAuto.exe
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\bin\Debug\NewageAuto.pdb
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.Admin.Expenses.resources
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.Admin.FrmMainAdmin.resources
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.FrmLogin.resources
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.Properties.Resources.resources
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.User.FrmBooking.resources
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.User.FrmBookingReturn.resources
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.User.FrmUserMain.resources
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.User.FrmViewBooking.resources
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.csproj.GenerateResource.cache
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.csproj.CoreCompileInputs.cache
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.exe
+C:\Users\FEMI-BLAZER\source\repos\NewageAuto\NewageAuto\obj\Debug\NewageAuto.pdb
